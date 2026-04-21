@@ -1,0 +1,24 @@
+{
+  "name": "trabalho-poo-atv02",
+  "version": "1.0.0",
+  "description": "Lista de exercícios de TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "parte1": "ts-node src/index.ts",
+    "parte2": "ts-node src/tipos.ts",
+    "parte3": "ts-node src/validacao.ts",
+    "parte4": "ts-node src/poo.ts",
+    "parte5": "ts-node src/metodos.ts",
+    "desafio": "ts-node src/desafio.ts",
+    "test": "echo \"Erro: nenhum teste especificado\" && exit 1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/readline-sync": "^1.4.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
